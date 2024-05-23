@@ -291,8 +291,7 @@ img {
 .home__blob-img {
   width: 180%;
   height: 145%;
-  padding-left: 30px;
-}
+  padding-left: 30px;}
 .home__data {
   grid-column: 1/3;
 }
@@ -934,6 +933,7 @@ img {
 
 /* For Small Devices */
 @media screen and (max-width: 350px) {
+  .font_change{font-size: 28px !important;}
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -1186,7 +1186,7 @@ img {
   }
 
   .home__title {
-    font-size: 37px;
+    font-size: 35px;
   }
 
   .home__social {

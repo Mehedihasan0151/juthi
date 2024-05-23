@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="assets/newcss.css" />
     <link
       rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
   </head>
 
   <body oncontextmenu="return false"> 
@@ -119,7 +118,8 @@
               </svg>
             </div>
             <div class="home__data">
-              <h1 class="home__title">Hi, I'm Lamia Juthi</h1>
+              <h1 class="home__title font_change">Hi, I'm <span class="auto-type"></span></h1>
+              
               <h3 class="home__subtitle">
                 Computer Science Engineering Student
               </h3>
@@ -150,7 +150,7 @@
         <span class="section__subtitle">My introduction</span>
 
         <div class="about__container container grid">
-          <img src="assets\img\juthi1.jpg" alt="" class="about__img" />
+          <img src="assets\img\juthi.jpg" alt="" class="about__img" />
 
           <div class="about__data">
             <p class="about__description">
@@ -810,5 +810,16 @@
     <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
     <script src="assets/ptj.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ['Lamia Juthi', 'Tiktoker', 'Youtuber',],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true
+      });
+    </script>
   </body>
 </html>
